@@ -1,0 +1,63 @@
+[13-Apr-2026 16:16:59 UTC] Home directory set to: /home/tgqeookc6vhr
+[13-Apr-2026 16:16:59 UTC] Binary directory: /home/tgqeookc6vhr/bin, Manager path: /home/tgqeookc6vhr/bin/ssl-manager
+[13-Apr-2026 16:16:59 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[13-Apr-2026 16:16:59 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/amd64/linux/ssl-manager
+[13-Apr-2026 16:17:08 UTC] Home directory set to: /home/tgqeookc6vhr
+[13-Apr-2026 16:17:08 UTC] Binary directory: /home/tgqeookc6vhr/bin, Manager path: /home/tgqeookc6vhr/bin/ssl-manager
+[13-Apr-2026 16:17:08 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[13-Apr-2026 16:17:08 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/amd64/linux/ssl-manager
+[13-Apr-2026 16:17:08 UTC] Action received: install
+[13-Apr-2026 16:17:08 UTC] Install action initiated.
+[13-Apr-2026 16:17:08 UTC] Created bin directory: /home/tgqeookc6vhr/bin
+[13-Apr-2026 16:17:08 UTC] Downloading manager binary from https://ssl-manager.s3.amazonaws.com/bin/amd64/linux/ssl-manager
+[13-Apr-2026 16:17:08 UTC] Trying file_get_contents method
+[13-Apr-2026 16:17:11 UTC] Downloaded manager binary using file_get_contents
+[13-Apr-2026 16:17:11 UTC] Manager installed successfully.
+[13-Apr-2026 16:17:11 UTC] Fetching manager info.
+[13-Apr-2026 16:17:11 UTC] Running command: /home/tgqeookc6vhr/bin/ssl-manager info 2>/dev/null
+[13-Apr-2026 16:17:11 UTC] Manager info: Error: Could not get control panel credentials
+{"error": "Error: panel credentials not found"}
+
+[13-Apr-2026 16:17:47 UTC] Home directory set to: /home/tgqeookc6vhr
+[13-Apr-2026 16:17:47 UTC] Binary directory: /home/tgqeookc6vhr/bin, Manager path: /home/tgqeookc6vhr/bin/ssl-manager
+[13-Apr-2026 16:17:47 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[13-Apr-2026 16:17:47 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/amd64/linux/ssl-manager
+[13-Apr-2026 16:17:47 UTC] Action received: register
+[13-Apr-2026 16:17:47 UTC] Running command: /home/tgqeookc6vhr/bin/ssl-manager register -t 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFkNmlmTUlzRlpTcU5GTzdkWDBkeTltanBqX21qX1NnZ084bng2ektQTHcifQ.eyJpc3MiOiJodHRwczovL2V4dGVybmFsYXV0b3NzbC5zZXJ2aWNlLnNwYWNlc2hpcC5jb20iLCJuYmYiOjE3NzYwOTY4MDQsImlhdCI6MTc3NjA5NjgwNCwiZXhwIjoxNzc2MTgzMjA0LCJhdWQiOlsiZXh0ZXJuYWxhdXRvc3NsIl0sInNjb3BlIjpbImV4dGVybmFsYXV0b3NzbC5leHRlcm5hbGF1dG9zc2wiLCJleHRlcm5hbGF1dG9zc2wudXNlci1pbnRlZ3JhdGlvbi1jcmVhdGUiXSwiY2xpZW50X2lkIjoiZXh0ZXJuYWwtc3NsLWNsaWVudCIsInN1YiI6Ijg2ZTZiNjU3LWFkNDgtNDM1My1hNGJkLTQ5ZTE5NGVmNzQwMSJ9.0IVAT4qtB4ZbgJ-2k4nupK3KU69_-V_eAuqy10Eym57h46EW9jTP3iG7WZYFpIdi36YwcrM85n3JNywDbu-Ah3ptFuWMllYmGCw4JgtqK9gYBjfrm92-BYpSxQHxXgqmti48E35jmodMRlh2Da9t2GlGAcKwysUb19eHCJA3vQ7TxsjkU4zsVFmilS_iuNKZzXYUiyH7Q8M8COIxM0c_G8a_RVzj1sjvNvvI5weou27-c9OvAAzweMqAgs8zLEI94zIrLRbPoKXhCNcSdnDB3ci8JGoCna18NkBwkxEQUhlLnSqYCIIxSLX7evGByxW8jyGaacW-LkO99yv_BH_wXA' -u 'https://externalautossl.service.spaceship.com/api/v1/externalautossl/user/' 2>&1
+[13-Apr-2026 16:17:52 UTC] Registration output: Installing certificate manager
+Vendor registered successfully
+Integrated with control panel successfully
+Setting up cron job
+
+[13-Apr-2026 16:17:52 UTC] Fetching manager info.
+[13-Apr-2026 16:17:52 UTC] Running command: /home/tgqeookc6vhr/bin/ssl-manager info 2>/dev/null
+[13-Apr-2026 16:17:53 UTC] Manager info: Control panel credentials found
+Vendor credentials found
+Cron is properly set up
+Manager is ready
+
+[13-Apr-2026 16:18:26 UTC] Home directory set to: /home/tgqeookc6vhr
+[13-Apr-2026 16:18:26 UTC] Binary directory: /home/tgqeookc6vhr/bin, Manager path: /home/tgqeookc6vhr/bin/ssl-manager
+[13-Apr-2026 16:18:26 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[13-Apr-2026 16:18:26 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/amd64/linux/ssl-manager
+[13-Apr-2026 16:18:26 UTC] Action received: remove_installer
+[13-Apr-2026 16:18:26 UTC] Fetching manager info.
+[13-Apr-2026 16:18:26 UTC] Running command: /home/tgqeookc6vhr/bin/ssl-manager info 2>/dev/null
+[13-Apr-2026 16:18:27 UTC] Manager info: Control panel credentials found
+Vendor credentials found
+Cron is properly set up
+Manager is ready
+
+[13-Apr-2026 16:18:27 UTC] Remove installer action initiated.
+[13-Apr-2026 16:18:27 UTC] Installer file removed.
+[25-Apr-2026 15:54:56 UTC] Home directory set to: /home/tgqeookc6vhr
+[25-Apr-2026 15:54:56 UTC] Binary directory: /home/tgqeookc6vhr/bin, Manager path: /home/tgqeookc6vhr/bin/ssl-manager
+[25-Apr-2026 15:54:56 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[25-Apr-2026 15:54:56 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/amd64/linux/ssl-manager
+[25-Apr-2026 15:54:56 UTC] Fetching manager info.
+[25-Apr-2026 15:54:56 UTC] Running command: /home/tgqeookc6vhr/bin/ssl-manager info 2>/dev/null
+[25-Apr-2026 15:54:57 UTC] Manager info: Control panel credentials found
+Vendor credentials found
+Cron is properly set up
+Manager is ready
+

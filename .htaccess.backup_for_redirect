@@ -1,0 +1,4 @@
+#redirected via control panel#
+RewriteEngine On
+RewriteRule ^(.*)$ http://weddigraphy.co.uk [R=301,L]
+#http://weddigraphy.co.uk#
